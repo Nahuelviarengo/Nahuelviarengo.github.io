@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Probando Bootstrap</title>
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<style>
+		.header{
+			background-color: aqua;
+			color: red;
+		}
+		.header2{
+			background-color: sienna;
+		}
+		.columna1{
+			background-color: yellow;
+			color: red;
+			height: 100px;
+		}
+		.columna2{
+			background-color: red;
+			color: yellow;
+			height: 100px;
+		}
+		.columna3{
+			background-color: yellow;
+			color: red;
+			height: 100px;
+		}
+		.columna4{
+			background-color: green;
+			color: red;
+			height: 100px;
+		}
+		.columna5{
+			background-color: blueviolet;
+			color: yellow;
+			height: 100px;
+		}
+		.columna6{
+			background-color: green;
+			color: red;
+			height: 100px;
+		}
+
+		.fila2{
+			justify-content: center;
+			text-align: center;
+		}
+		.imagen{
+		
+			height: 20%;
+			width: 20%;
+
+		}
+	</style>
+	
+	<header class="container-fluid header">
+		<h2>esto es un container</h2>
+	</header>
+
+	<div class="container header2">
+		<h3>Esto es un container fluid</h3>
+	</div>
+
+<section class="container">
+	<div class="row">
+		
+		<div class="col columna1">
+			Columna 1
+		</div>
+		<div class="col columna2">
+			Columna 2
+		</div>
+		<div class="col columna3">
+			Columna 3
+		</div>
+		
+	</div>
+</section>
+
+<section class="container">
+	<div class="row fila2">
+		
+		<div class="col-3 columna4">
+			Columna 4
+		</div>
+		<div class="col-6 columna5">
+			Columna 5
+		</div>
+		<div class="col-3 columna6">
+			Columna 6
+		</div>
+		
+	</div>
+</section>
+
+</section>
+
+<section class="container">
+	<h2>Columnas Responsive</h2>
+	<div class="row fila3">
+		
+		<div class="col-lg-3 columna4">
+			Columna 7
+			<div class="imagen">
+			<img src="img/maradona1.jpg" alt="">
+		</div>
+		</div>
+		<div class="col-lg-3 columna5">
+			Columna 8
+			<div class="imagen">
+			<img src="img/maradona2.jpg" alt="">
+		</div>
+		</div>
+		<div class="col-lg-3 columna6">
+			Columna 9
+			<div class="imagen">
+			<img src="img/slide1.jpg" alt="">
+		</div>
+		</div>
+		<div class="col-lg-3 columna5">
+			Columna 10
+			<div class="imagen">
+			<img src="img/slide2.jpg" alt="">
+		</div>
+		</div>
+		
+	</div>
+</section>
+
+    <!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+</body>
+</html>
